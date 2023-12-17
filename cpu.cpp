@@ -282,7 +282,7 @@ int	main(int	ac,	char	**av){
 	omp_set_num_threads(threads);
 	if(!model.load(model_file.c_str())){	fprintf(stderr,"fail to load %s\n",model_file.c_str());	return	0;	}
 	timeval	beg,end;	gettimeofday(&beg,NULL);
-	cout<<model.generate(av[optind],context)<<'\n';
+	cout<<model.generate(av[optind],context)<<'\n';	//	the second parameter can be arbitary long
 	gettimeofday(&end,NULL);
 	cerr<<end.tv_sec-beg.tv_sec+1e-6*(end.tv_usec-beg.tv_usec)<<'\n';
 	return	0;
