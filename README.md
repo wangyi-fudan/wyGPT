@@ -18,11 +18,22 @@ make
 ***a working version trained on PubMed***
 
 Link: https://pan.baidu.com/s/1d3PQahvWi5SARUDzsm_-Uw?pwd=qn5f 
+
 Password: qn5f 
 
 To finetune it (12 hours per iteration), type:
 
 ```./train your_text.txt -i model -s 44032```
+
+***a working version trained on Chinese***
+
+Link: https://pan.baidu.com/s/1NQMt30c1QlCyzPHcW6_4eQ?pwd=mc8y 
+
+Password: mc8y 
+
+To finetune it (12 hours per iteration), type:
+
+```./train your_text.utf16 -i model -s 60480```
 
 ***sample text***
 
