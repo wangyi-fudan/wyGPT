@@ -2,7 +2,8 @@
 No model is perfect but some are useful.
 
 ***Introduction***
-This is my 2.5 years' effort on GPT. It is mature and highly optimized on single GPU.
+
+This is my 2.5 years' day-and-night efforts on GPT. It is mature and highly optimized on single GPU.
 
 ***usage:***
 
