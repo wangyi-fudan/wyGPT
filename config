@@ -1,0 +1,6 @@
+const	uint64_t	context=512;
+const	uint64_t	depth=4;
+const   uint64_t	heads=4;
+const	uint64_t	embed=heads*48;
+const   uint64_t	voca=256;
+const	uint64_t	fullbatch=1ull<<16;
